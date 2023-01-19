@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Card from './components/Card';
+import Card from './components/Card/Card';
 import { getAllPokemon, getPokemon } from './utils/pokemon.js';
 
 function App() {
